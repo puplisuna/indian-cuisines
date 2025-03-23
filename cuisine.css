@@ -10,6 +10,8 @@ header{
     text-transform: capitalize;
     text-align: justify;
     box-shadow: 2px 4px 6px 8px gray;
+    opacity: 1;
+    z-index: 1;
 
 }
 
