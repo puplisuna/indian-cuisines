@@ -125,3 +125,62 @@ footer {
 
 }
 
+header{
+    grid-area: header;
+}
+
+.question{
+    grid-area: question;
+}
+
+.popular{
+    grid-area: popular;
+}
+
+.butter-chicken{
+    grid-area: butter-chicken;
+}
+
+.somosa{
+    grid-area: somosa;
+}
+
+.Tandoori{
+    grid-area: tandoori;
+}
+
+.biryani{
+    grid-area: biryani;
+}
+
+.dal{
+    grid-area: dal;
+}
+
+.chicken-Tikka{
+    grid-area: chicken-Tikka;
+}
+
+.paneer-Tikka{
+    grid-area: paneer-tikka;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    "header header header header header header header header"
+    "question question question question question popular popular popular"
+    "somosa somosa somosa somosa somosa somosa somosa somosa"
+    "Tandoori Tandoori Tandoori Tandoori Tandoori Tandoori Tandoori Tandoori"
+    "biryani biryani biryani biryani biryani biryani biryani biryani"
+    "dal dal dal dal dal dal dal dal"
+    "chicken-Tikka chicken-Tikka chicken-Tikka chicken-Tikka chicken-Tikka chicken-Tikka chicken-Tikka chicken-Tikka"
+    "paneer-Tikka paneer-Tikka paneer-Tikka paneer-Tikka paneer-Tikka paneer-Tikka paneer-Tikka paneer-Tikka"
+    "footer footer footer footer footer footer footer footer "
+    ;
+}
